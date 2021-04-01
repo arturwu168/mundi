@@ -1,0 +1,130 @@
+﻿input {
+    /*font-family: Inconsolata, 微軟正黑體, Verdana, Arial, Helvetica, sans-serif, 細明體, 新細明體;*/
+    /*font-family: 'IBM Plex Mono', Arial, monospace, Helvetica, sans-serif, 微軟正黑體, Microsoft JhengHei;*/
+    font-family: 'IBM Plex Mono', 微軟正黑體, 'Noto Sans TC', 'Noto Sans SC', monospace, sans-serif, Microsoft JhengHei;
+    padding: 0px 6px 0px 6px;
+    font-size: 1.8rem;
+    border: none;
+    background-color: transparent;
+    outline:none;
+    outline-style:none;
+}
+
+button {
+    font-family: 'IBM Plex Mono', 微軟正黑體, 'Noto Sans TC', 'Noto Sans SC', monospace, sans-serif, Microsoft JhengHei;
+    padding: 0px;
+    font-size: 1.6rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    margin:0px;
+    
+}
+
+div {
+    font-family: 'IBM Plex Mono', 微軟正黑體, 'Noto Sans TC', 'Noto Sans SC', monospace, sans-serif, Microsoft JhengHei;
+    font-size: 1.6rem;    
+}
+
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+  
+  input::-ms-clear {
+    display: none;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 16px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    font-size: 16px;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+    font-size: 16px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+}
+
+.isd {}
+
+    .isd.warp {
+        word-break: break-all;
+        white-space:pre-wrap;
+    }
+
+    .isd.nowarp {
+        white-space: nowrap;
+        word-break: keep-all;
+    }
+
+    .isd.whirl1 {
+        animation: rotate1 1.2s linear infinite;
+        font-size: 20px;
+    }
+
+@keyframes rotate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* remixicon icon */
+.remixicon.size16px{
+    font-size: 16px; display: inline-flex; height: 16px; width:16px
+}
+
+.remixicon.size24px{
+    font-size: 24px; display: inline-flex; height: 24px; width:24px
+}
+
+.remixicon.size32px{
+    font-size: 32px; display: inline-flex; height: 32px; width:32px
+}
+
+.remixicon.size40px{
+    font-size: 40px; display: inline-flex; height: 40px; width:40px
+}
+
+.remixicon.size48px{
+    font-size: 48px; display: inline-flex; height: 48px; width:48px
+}
+
+.remixicon.size56px{
+    font-size: 56px; display: inline-flex; height: 56px; width:56px
+}
+
+.remixicon.size64px{
+    font-size: 64px; display: inline-flex; height: 64px; width:64px
+}
+
+
+/* 變化 */
+/* 變化 */
+

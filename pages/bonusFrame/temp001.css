@@ -1,0 +1,30 @@
+﻿.agiis.pages.bonusFrame.sty001 {
+	width: 100%; height: 100%; position: absolute; left: 0px; top:0px;
+}
+
+.agiis.pages.bonusFrame.sty001 .rwd001 {
+	width: 100%; max-width: 360px; min-width: 285px; padding: 10px;	border-radius: 5px;
+}
+
+.agiis.pages.bonusFrame.sty001 .rwdTop1 {
+	flex:1; justify-content: flex-start; margin-left: 8px; align-items: center;	display: none;
+}
+
+.agiis.pages.bonusFrame.sty001 .rwdTop2 {	
+	display: block;	display: flex; justify-content: center;
+}
+
+.agiis.pages.bonusFrame.sty001 .color01 {
+	color: #11587F
+}
+
+@media (max-height: 614px) {
+	.agiis.pages.bonusFrame.sty001 .rwdTop1 {
+		display: flex;
+	}
+	
+	.agiis.pages.bonusFrame.sty001 .rwdTop2 {	
+		display: none;
+	}
+	
+}
