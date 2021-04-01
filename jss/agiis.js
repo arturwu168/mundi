@@ -93,7 +93,7 @@ function createCss(vStr1, vStr2) {
         }
         //console.log(pStr1s, pStr1);
 
-        let pObj1 = document.createElement('style');
+         let pObj1 = document.createElement('style');
         pObj1.setAttribute('type', 'text/css');
         pObj1.setAttribute('id', vStr1);
         pObj1.innerHTML = vStr2.replace(/\.nameSpace1/g, pStr1);
